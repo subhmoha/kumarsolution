@@ -997,5 +997,25 @@
     line-height:1.8;
 }
 
+.logo-container{
+    width: 180px;      /* adjust as needed */
+    text-align: center;
+}
 
+.company-logo{
+    width: 180px;
+    height: auto;
+    display: block;
+}
+
+.tagline{
+    width: 180px;
+    font-size: 10px;
+    color: #ff6600;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 4px;
+    line-height: 1.2;
+}
 
