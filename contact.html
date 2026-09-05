@@ -157,49 +157,67 @@
                             <h2 class="display-4 text-capitalize mb-3">Contact Kumar Solutions</h2>
                             <h4 class="lh-base mb-0">Have questions about our aluminum formwork services? Get in touch with our team for a quote or consultation on your construction project.</h4>
                         </div>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="phone" class="form-control" id="phone" placeholder="Phone">
-                                        <label for="phone">Your Phone</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="text" class="form-control" id="project" placeholder="Project">
-                                        <label for="project">Your Project</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating border border-secondary">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                        <label for="subject">Subject</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating border border-secondary">
-                                        <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
+                       <form action="https://api.web3forms.com/submit" method="POST">
+
+    <!-- Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="77f202b1-2cf2-46c8-96b2-c7d9ea695c46">
+
+    <!-- Website Name -->
+    <input type="hidden" name="from_name" value="Kumar Solutions Website">
+
+    <div class="row g-3">
+
+        <div class="col-lg-12 col-xl-6">
+            <div class="form-floating border border-secondary">
+                <input type="text" class="form-control" id="name" name="Name" placeholder="Your Name" required>
+                <label for="name">Your Name</label>
+            </div>
+        </div>
+
+        <div class="col-lg-12 col-xl-6">
+            <div class="form-floating border border-secondary">
+                <input type="email" class="form-control" id="email" name="Email" placeholder="Your Email" required>
+                <label for="email">Your Email</label>
+            </div>
+        </div>
+
+        <div class="col-lg-12 col-xl-6">
+            <div class="form-floating border border-secondary">
+                <input type="tel" class="form-control" id="phone" name="Phone" placeholder="Phone Number" required>
+                <label for="phone">Your Phone</label>
+            </div>
+        </div>
+
+        <div class="col-lg-12 col-xl-6">
+            <div class="form-floating border border-secondary">
+                <input type="text" class="form-control" id="project" name="Project" placeholder="Project">
+                <label for="project">Your Project</label>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="form-floating border border-secondary">
+                <input type="text" class="form-control" id="subject" name="Subject" placeholder="Subject">
+                <label for="subject">Subject</label>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <div class="form-floating border border-secondary">
+                <textarea class="form-control" id="message" name="Message" placeholder="Leave a message here" style="height:160px" required></textarea>
+                <label for="message">Message</label>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <button type="submit" class="btn btn-primary w-100 py-3">
+                Send Message
+            </button>
+        </div>
+
+    </div>
+
+</form>
                     </div>
                     <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
                         <div class="contact-map h-100 w-100">
