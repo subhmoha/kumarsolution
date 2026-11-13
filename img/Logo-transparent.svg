@@ -1,11 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
 <defs><linearGradient id="orange" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff7a24"/><stop offset="1" stop-color="#f04418"/></linearGradient></defs>
-<g fill="url(#orange)">
-<path d="M32 35 Q32 25 44 25 H118 Q130 25 120 36 L74 84 120 131 Q132 145 116 145 H45 Q32 145 32 132 Z"/>
-<path d="M135 25 H196 Q210 25 210 39 V132 Q210 145 197 145 H137 Q124 145 134 132 L169 94 128 43 Q119 25 135 25 Z"/>
-<path d="M32 163 Q32 151 45 151 H111 Q124 151 116 164 L77 210 118 256 Q129 270 114 270 H44 Q32 270 32 257 Z"/>
-<path d="M135 151 H197 Q210 151 210 164 V257 Q210 270 197 270 H137 Q124 270 134 257 L169 219 128 169 Q119 151 135 151 Z"/>
-</g>
+<g transform="translate(-80 -20) scale(0.36)" fill="url(#orange)"><path fill-rule="evenodd" d="M884,511 L1687,512 L1833,511 L1861,509 L1803,507 L1305,506 L901,509Z M311,482 L310,567 L312,575 L317,584 L325,592 L338,597 L583,597 L590,594 L596,586 L596,574 L593,567 L462,374 L446,353 L439,355 L350,441 L313,478Z M681,128 L668,133 L505,291 L489,307 L488,311 L532,378 L640,535 L646,546 L666,575 L677,588 L690,594 L786,594 L795,590 L802,584 L808,570 L808,152 L801,138 L792,131 L786,129Z M546,129 L536,125 L340,125 L328,129 L322,133 L314,143 L310,155 L310,327 L315,339 L324,347 L331,349 L342,348 L351,343 L549,155 L552,149 L553,142 L549,132Z"/></g>
 <text x="245" y="135" font-family="Arial, Helvetica, sans-serif" font-size="102" font-weight="800" letter-spacing="-3" fill="#303033">KUMAR</text>
 <text x="248" y="205" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="400" letter-spacing="12" fill="#424247">SOLUTIONS</text>
 <path d="M248 218 H842" stroke="#f15a24" stroke-width="4"/>
